@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Cooking Guide</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- DEVELOPER: Ali-Tyana Peynado, IS117, Fall 2024 -->
+</head>
+
+<body style="font-family: 'Times New Roman', serif; background-color: #f8f9fa;">
+<nav class="navbar navbar-expand-lg" style="background-color: #add8e6;">
+    <div class="container">
+        <a class="navbar-brand" href="index.html" style="color: white;">Cooking Guide</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html" style="color: white;">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="About.html" style="color: white;">About</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" style="color: white;">
+                        Topics
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Recipes.html">Recipes</a></li>
+                        <li><a class="dropdown-item" href="Cooking_tips.html">Cooking Tips</a></li>
+                        <li><a class="dropdown-item" href="Meal_prep_ideas.html">Meal Prep Ideas</a></li>
+                        <li><a class="dropdown-item" href="Grocery_shopping_tips.html">Grocery Shopping Tips</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link active" href="Contact.html" style="color: white;">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header style="background-color: #ffb6c1; color: white; text-align: center; padding: 20px;">
+    <h1>Contact Us</h1>
+    <p>We’re here to help! Have questions, feedback, or ideas? Reach out to us below.</p>
+</header>
+
+<div class="container my-5">
+    <div class="row">
+        <!-- Contact Form -->
+        <div class="col-md-8">
+            <h2 style="color: #add8e6;">Send Us a Message</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label" style="color: #add8e6;">Your Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label" style="color: #add8e6;">Your Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email address">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label" style="color: #add8e6;">Your Message</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..."></textarea>
+                </div>
+                <button type="submit" class="btn" style="background-color: #add8e6; color: white;">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="col-md-4">
+            <h2 style="color: #add8e6;">Follow Us</h2>
+            <p>Stay connected for updates, tips, and delicious recipes!</p>
+            <ul class="list-unstyled">
+                <li><a href="#" style="color: #add8e6;">Instagram</a></li>
+                <li><a href="#" style="color: #add8e6;">Twitter (X)</a></li>
+                <li><a href="#" style="color: #add8e6;">Facebook</a></li>
+                <li><a href="#" style="color: #add8e6;">YouTube</a></li>
+            </ul>
+            <h3 style="color: #add8e6;">Join Our Newsletter</h3>
+            <form>
+                <div class="mb-3">
+                    <label for="newsletterEmail" class="form-label" style="color: #add8e6;">Email Address</label>
+                    <input type="email" class="form-control" id="newsletterEmail" placeholder="Enter your email">
+                </div>
+                <button type="submit" class="btn" style="background-color: #ffb6c1; color: white;">Subscribe</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer style="background-color: #add8e6; color: white; text-align: center; padding: 10px; margin-top: 20px;">
+    <p>© 2024 Cooking Guide | All Rights Reserved</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
